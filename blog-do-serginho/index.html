@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mundo da Copa</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f4f6f9;
+}
+
+header {
+    background: #0f5132;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap; 
+}
+
+.post {
+    background: white;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.post img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.conteudo {
+    padding: 15px;
+}
+
+button {
+    background: #0f5132;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h2>⚽ Mundo da Copa</h2>
+    </header>
+
+    <section class="container">
+        
+        <main class="post">
+        Estádio
+            <div class="conteudo">
+                <h3>A Primeira Copa de 1930</h3>
+                <p>A primeira Copa do Mundo aconteceu no Uruguai e teve apenas 13 seleções.</p>
+                <button>Ler mais</button>
+            </div>
+        </main>
+
+        <main class="post">
+            Brasil
+            <div class="conteudo">
+                <h3>O Único Pentacampeão</h3>
+                <p>O Brasil é a única seleção que participou de todas as Copas e venceu 5 vezes.</p>
+                <button>Ler mais</button>
+            </div>
+        </main>
+
+    </section>
+
+</body>
+</html>
